@@ -1,4 +1,7 @@
-<?php get_header(); ?>
+<?php
+/* Template Name: Contato */
+get_header();
+?>
 
   <section class="hero-gradient">
     <div class="container text-center">

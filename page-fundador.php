@@ -1,4 +1,7 @@
-<?php get_header(); ?>
+<?php
+/* Template Name: Fundador */
+get_header();
+?>
 
   <section class="hero-gradient">
     <div class="container text-center">
