@@ -24,8 +24,8 @@
         <a href="<?php echo home_url( '/como-funciona' ); ?>">Como Funciona</a>
         <a href="<?php echo home_url( '/cases' ); ?>">Cases</a>
         <a href="<?php echo home_url( '/contato' ); ?>">Contato</a>
-        <button href="<?php echo home_url( '/fundador' ); ?>" class="btn btn-primary px-6 py-3 text-base hover:text-white">QUERO ESSA
-          TRANSFORMAÇÃO</button>
+        <a href="<?php echo home_url( '/fundador' ); ?>" class="btn btn-primary px-6 py-3 text-base hover:text-white">QUERO ESSA
+          TRANSFORMAÇÃO</a>
       </nav>
     </div>
   </header>
