@@ -1,36 +1,4 @@
-<!DOCTYPE html>
-<html lang="pt-BR">
-
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Transformando o Varejo Brasileiro - VdeVAREJO</title>
-  <meta name="description"
-    content="A primeira plataforma do Brasil 100% focada em transformar varejistas tradicionais em líderes de mercado.">
-  <link rel="stylesheet" href="src/output.css">
-</head>
-
-<body>
-  <!-- Header -->
-  <header>
-    <div class="container">
-      <div class="logo">
-        <a href="index.html">
-          <img src="images/logo-header.png" alt="VdeVAREJO">
-        </a>
-      </div>
-      <nav>
-        <a href="index.html">Início</a>
-        <a href="sobre.html">Sobre Nós</a>
-        <a href="metodologia.html">A Metodologia</a>
-        <a href="como-funciona.html">Como Funciona</a>
-        <a href="cases.html">Cases</a>
-        <a href="contato.html">Contato</a>
-        <button href="fundador.html" class="btn btn-primary px-6 py-3 text-base hover:text-white">QUERO ESSA
-          TRANSFORMAÇÃO</button>
-      </nav>
-    </div>
-  </header>
+<?php get_header(); ?>
 
   <!-- Hero Section -->
   <section class="hero-gradient py-20 md:py-32">
@@ -197,51 +165,4 @@
     </div>
   </section>
 
-  <footer class="bg-preto py-12 md:py-16 text-branco">
-    <div class="container mx-auto px-4">
-      <div class="mb-10">
-        <img src="images/logo-footer.png" alt="VdeVAREJO" class="h-16 w-auto">
-      </div>
-
-      <div class="grid grid-cols-1 md:grid-cols-3 gap-10">
-        <div class="flex flex-col">
-          <h4 class="text-laranja font-poppins font-bold text-lg mb-4">Navegação</h4>
-          <nav class="flex flex-col gap-2">
-            <a href="index.html" class="text-cinza-claro hover:text-laranja transition-colors">Início</a>
-            <a href="sobre.html" class="text-cinza-claro hover:text-laranja transition-colors">Sobre Nós</a>
-            <a href="metodologia.html" class="text-cinza-claro hover:text-laranja transition-colors">A Metodologia</a>
-            <a href="como-funciona.html" class="text-cinza-claro hover:text-laranja transition-colors">Como Funciona</a>
-            <a href="cases.html" class="text-cinza-claro hover:text-laranja transition-colors">Cases</a>
-            <a href="contato.html" class="text-cinza-claro hover:text-laranja transition-colors">Contato</a>
-          </nav>
-        </div>
-
-        <div class="flex flex-col">
-          <h4 class="text-laranja font-poppins font-bold text-lg mb-4">Contato</h4>
-          <a href="mailto:contato@vdevarejo.com.br" class="text-cinza-claro hover:text-laranja transition-colors mb-4">
-            contato@vdevarejo.com.br
-          </a>
-          <p class="text-cinza-claro">Governador Valadares - MG</p>
-        </div>
-
-        <div class="flex flex-col">
-          <h4 class="text-laranja font-poppins font-bold text-lg mb-4">Redes Sociais</h4>
-          <nav class="flex flex-col gap-2">
-            <a href="#" class="text-cinza-claro hover:text-laranja transition-colors">Instagram</a>
-            <a href="#" class="text-cinza-claro hover:text-laranja transition-colors">LinkedIn</a>
-          </nav>
-        </div>
-      </div>
-
-      <div class="mt-12 pt-8 border-t border-cinza-chumbo text-center">
-        <p class="text-cinza-medio text-sm">
-          &copy; 2025 VdeVAREJO. Todos os direitos reservados.
-        </p>
-      </div>
-    </div>
-  </footer>
-
-  <script src="js/main.js"></script>
-</body>
-
-</html>
+<?php get_footer(); ?>
