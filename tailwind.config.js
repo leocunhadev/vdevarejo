@@ -3,7 +3,8 @@ module.exports = {
     // 1. Mapeia onde o Tailwind deve procurar as classes no seu HTML
     content: [
         "./src/**/*.{html,js}",
-        "./*.html"
+        "./*.html",
+        "./*.php"
     ],
     theme: {
         extend: {
