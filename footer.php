@@ -1,4 +1,4 @@
-<footer class="bg-preto py-12 md:py-16 text-branco">
+<footer class="bg-black py-12 md:py-16 text-white border-t border-cinza-chumbo">
     <div class="container mx-auto px-4">
       <div class="mb-10">
         <img src="<?php echo get_template_directory_uri(); ?>/images/logo-footer.png" alt="VdeVAREJO" class="h-16 w-auto">

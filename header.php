@@ -10,7 +10,7 @@
 
 <body <?php body_class(); ?>>
   <!-- Header -->
-  <header>
+  <header class="sticky top-0 z-50 w-full border-b border-border bg-background/95 backdrop-blur supports-backdrop-filter:bg-background/60">
     <div class="container">
       <div class="logo">
         <a href="<?php echo home_url( '/' ); ?>">
@@ -24,8 +24,9 @@
         <a href="<?php echo home_url( '/como-funciona' ); ?>">Como Funciona</a>
         <a href="<?php echo home_url( '/cases' ); ?>">Cases</a>
         <a href="<?php echo home_url( '/contato' ); ?>">Contato</a>
-        <a href="<?php echo home_url( '/fundador' ); ?>" class="btn btn-primary px-6 py-3 text-base hover:text-white">QUERO ESSA
-          TRANSFORMAÇÃO</a>
+        <a href="<?php echo home_url( '/fundador' ); ?>" class="btn btn-primary px-6 py-3 text-base text-white hover:text-white! bg-laranja">
+          QUERO ESSA TRANSFORMAÇÃO
+        </a>
       </nav>
     </div>
   </header>

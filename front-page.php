@@ -6,13 +6,13 @@ get_header();
   <!-- Hero Section -->
   <section class="hero-gradient py-20 md:py-32">
     <div class="container mx-auto px-4 relative z-10">
-      <div class="max-w-5xl mx-auto text-center">
+      <div class=" mx-auto text-center">
         <h1 class="text-hero mb-8">
           Seu varejo parou em 1980.<br>
           <span class="text-gradient">É hora de virar o jogo.</span>
         </h1>
 
-        <p class="text-2xl mb-12 opacity-90 font-medium">
+        <p class="text-2xl mb-12 opacity-90 md:text-2xl text-secondary-foreground/90 max-w-3xl mx-auto font-medium">
           A primeira plataforma do Brasil 100% focada em transformar varejistas tradicionais em líderes de mercado.
           Metodologia validada. Comunidade de elite. Resultados mensuráveis.
         </p>
@@ -20,8 +20,9 @@ get_header();
         <div class="flex flex-col sm:flex-row gap-6 justify-center">
           <a href="fundador.html">
             <button data-slot="button"
-              class="cursor-pointer btn-primary inline-flex items-center justify-center gap-2 whitespace-nowrap transition-all disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg:not([class*='size-'])]:size-4 shrink-0 [&_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive bg-primary text-primary-foreground hover:bg-primary/90 h-10 rounded-md has-[>svg]:px-4 text-lg px-10 py-7 font-bold btn-3d btn-neon">QUERO
-              ESSA TRANSFORMAÇÃO</button>
+              class="cursor-pointer btn btn-primary inline-block text-xl px-12 py-4 rounded-md bg-laranja">
+              QUERO ESSA TRANSFORMAÇÃO
+            </button>
           </a>
 
           <a href="metodologia.html">
@@ -35,9 +36,9 @@ get_header();
   </section>
 
   <!-- Seção Problema -->
-  <section class="py-16 md:py-24 bg-branco">
+  <section class="py-16 md:py-24 bg-white">
     <div class="container mx-auto px-4">
-      <h2 class="text-center mb-12 text-3xl md:text-4xl font-poppins font-extrabold text-preto">
+      <h2 class="text-center mb-12 text-3xl md:text-4xl font-poppins font-extrabold text-black">
         Reconhece alguma dessas situações?
       </h2>
 
@@ -84,9 +85,9 @@ get_header();
     </div>
   </section>
 
-  <section class="bg-dark py-16 md:py-24 text-branco">
+  <section class="bg-dark py-16 md:py-24 text-white bg-black">
     <div class="container mx-auto px-4">
-      <div class="text-center mb-12">
+      <div class="text-center">
         <h2 class="text-3xl md:text-[2.5rem] leading-tight font-poppins font-extrabold mb-6">
           Apresentamos o VdeVAREJO:<br>
           <span class="text-gradient">A transformação que o seu negócio precisa.</span>
@@ -101,20 +102,20 @@ get_header();
   </section>
 
   <!-- Seção Fundadores -->
-  <section class="py-16 md:py-24 bg-branco">
+  <section class="py-16 md:py-24 bg-white">
     <div class="container mx-auto px-4">
-      <h2 class="text-center mb-12 text-3xl md:text-[2.5rem] font-poppins font-extrabold text-preto leading-tight">
+      <h2 class="text-center mb-12 text-3xl md:text-[2.5rem] font-poppins font-extrabold text-black leading-tight">
         A dupla perfeita para transformar o seu varejo.
       </h2>
 
       <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
 
         <div class="card text-center flex flex-col items-center">
-          <div class="w-30 h-[120px] mb-6 bg-cinza-claro rounded-full flex items-center justify-center">
+          <div class="w-30 h-30 mb-6 bg-cinza-claro rounded-full flex items-center justify-center">
             <span class="text-5xl font-black text-laranja">AF</span>
           </div>
 
-          <div class="inline-block bg-laranja text-branco px-4 py-2 rounded-full text-sm font-bold mb-4 shadow-sm">
+          <div class="inline-block bg-laranja text-white px-4 py-2 rounded-full text-sm font-bold mb-4 shadow-sm">
             Sócio-Fundador
           </div>
 
@@ -131,7 +132,7 @@ get_header();
             <span class="text-5xl font-black text-laranja">DO</span>
           </div>
 
-          <div class="inline-block bg-laranja text-branco px-4 py-2 rounded-full text-sm font-bold mb-4 shadow-sm">
+          <div class="inline-block bg-laranja text-white px-4 py-2 rounded-full text-sm font-bold mb-4 shadow-sm">
             Sócio-Fundador
           </div>
 
@@ -147,7 +148,7 @@ get_header();
     </div>
   </section>
 
-  <section class="bg-black py-20 md:py-28 text-branco">
+  <section class="bg-black py-20 md:py-28 text-white">
     <div class="container mx-auto px-4 text-center">
       <h2 class="text-3xl md:text-[2.5rem] font-poppins font-extrabold mb-6 leading-tight">
         Seja um dos 100 primeiros do VdeVAREJO.
@@ -158,7 +159,7 @@ get_header();
         entrar agora.
       </p>
 
-      <a href="fundador.html" class="btn-primary inline-block text-xl px-12 py-6">
+      <a href="fundador.html" class="cursor-pointer btn btn-primary inline-block text-xl px-12 py-4 rounded-md bg-laranja">
         QUERO ESSA TRANSFORMAÇÃO
       </a>
 
