@@ -110,7 +110,7 @@ get_header();
       <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
 
         <div class="card text-center flex flex-col items-center">
-          <div class="w-[120px] h-[120px] mb-6 bg-cinza-claro rounded-full flex items-center justify-center">
+          <div class="w-30 h-[120px] mb-6 bg-cinza-claro rounded-full flex items-center justify-center">
             <span class="text-5xl font-black text-laranja">AF</span>
           </div>
 
