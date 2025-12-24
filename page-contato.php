@@ -55,7 +55,7 @@ get_header();
                                 placeholder="Conte-nos um pouco sobre seu negócio e seus desafios..."
                                 data-dashlane-rid="5d2eece2439390ab" data-dashlane-classification="other"></textarea>
                         </div><button data-slot="button"
-                            class="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm transition-all disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg:not([class*='size-'])]:size-4 shrink-0 [&amp;_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive bg-primary text-primary-foreground hover:bg-primary/90 h-10 rounded-md px-6 has-[&gt;svg]:px-4 w-full font-bold"
+                            class="cursor-pointer text-white btn btn-primary inline-block text-xl px-12 py-4 rounded-md bg-laranja"
                             type="submit" data-dashlane-label="true" data-dashlane-rid="1f29d736f803b1f0"
                             data-dashlane-classification="action">ENVIAR MENSAGEM</button>
                     </form>
@@ -65,7 +65,7 @@ get_header();
                     <div class="space-y-6">
                         <div data-slot="card"
                             class="bg-card text-card-foreground flex flex-col gap-6 rounded-xl border py-6 shadow-sm">
-                            <div data-slot="card-content" class="px-6 pt-6">
+                            <div data-slot="card-content" class="px-6">
                                 <div class="flex items-start gap-4">
                                     <div class="p-3 bg-primary/10 rounded-lg"><svg xmlns="http://www.w3.org/2000/svg"
                                             width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
@@ -83,7 +83,7 @@ get_header();
                         </div>
                         <div data-slot="card"
                             class="bg-card text-card-foreground flex flex-col gap-6 rounded-xl border py-6 shadow-sm">
-                            <div data-slot="card-content" class="px-6 pt-6">
+                            <div data-slot="card-content" class="px-6">
                                 <div class="flex items-start gap-4">
                                     <div class="p-3 bg-primary/10 rounded-lg"><svg xmlns="http://www.w3.org/2000/svg"
                                             width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
@@ -103,7 +103,7 @@ get_header();
                         </div>
                         <div data-slot="card"
                             class="bg-card text-card-foreground flex flex-col gap-6 rounded-xl border py-6 shadow-sm">
-                            <div data-slot="card-content" class="px-6 pt-6">
+                            <div data-slot="card-content" class="px-6">
                                 <div class="flex items-start gap-4">
                                     <div class="p-3 bg-primary/10 rounded-lg"><svg xmlns="http://www.w3.org/2000/svg"
                                             width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
@@ -124,7 +124,7 @@ get_header();
                         </div>
                         <div data-slot="card"
                             class="bg-card text-card-foreground flex flex-col gap-6 rounded-xl border py-6 shadow-sm">
-                            <div data-slot="card-content" class="px-6 pt-6">
+                            <div data-slot="card-content" class="px-6">
                                 <h3 class="font-bold mb-4">Redes Sociais</h3>
                                 <div class="flex gap-4"><a href="https://instagram.com/vdevarejo" target="_blank"
                                         rel="noopener noreferrer"
@@ -161,7 +161,7 @@ get_header();
             <h2 class="text-3xl md:text-4xl font-bold mb-6">Ou garanta sua vaga de fundador agora mesmo</h2>
             <p class="text-lg mb-8 max-w-2xl mx-auto">Não perca a oportunidade de fazer parte dos 100 fundadores com 20%
                 de desconto permanente.</p><a href="<?php echo home_url( '/fundador' ); ?>"><button data-slot="button"
-                    class="inline-flex items-center justify-center gap-2 whitespace-nowrap transition-all disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg:not([class*='size-'])]:size-4 shrink-0 [&amp;_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive bg-primary text-primary-foreground hover:bg-primary/90 h-10 rounded-md has-[&gt;svg]:px-4 text-lg px-8 py-6 font-bold">QUERO
+                    class="cursor-pointer text-white btn btn-primary inline-block text-xl px-12 py-4 rounded-md bg-laranja">QUERO
                     SER UM FUNDADOR (20% OFF)</button></a>
         </div>
     </section>

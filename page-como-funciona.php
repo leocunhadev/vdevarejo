@@ -22,7 +22,7 @@ get_header();
             <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
                 <div data-slot="card"
                     class="bg-card text-card-foreground flex flex-col gap-6 rounded-xl py-6 shadow-sm border-2 hover:border-primary transition-all">
-                    <div data-slot="card-content" class="px-6 pt-6">
+                    <div data-slot="card-content" class="px-6 py-6">
                         <div class="flex items-start gap-4 mb-4">
                             <div class="p-3 bg-primary/10 rounded-lg"><svg xmlns="http://www.w3.org/2000/svg" width="32"
                                     height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
@@ -53,7 +53,7 @@ get_header();
                 </div>
                 <div data-slot="card"
                     class="bg-card text-card-foreground flex flex-col gap-6 rounded-xl py-6 shadow-sm border-2 hover:border-primary transition-all">
-                    <div data-slot="card-content" class="px-6 pt-6">
+                    <div data-slot="card-content" class="px-6 py-6">
                         <div class="flex items-start gap-4 mb-4">
                             <div class="p-3 bg-primary/10 rounded-lg"><svg xmlns="http://www.w3.org/2000/svg" width="32"
                                     height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
@@ -83,7 +83,7 @@ get_header();
                 </div>
                 <div data-slot="card"
                     class="bg-card text-card-foreground flex flex-col gap-6 rounded-xl py-6 shadow-sm border-2 hover:border-primary transition-all">
-                    <div data-slot="card-content" class="px-6 pt-6">
+                    <div data-slot="card-content" class="px-6 py-6">
                         <div class="flex items-start gap-4 mb-4">
                             <div class="p-3 bg-primary/10 rounded-lg"><svg xmlns="http://www.w3.org/2000/svg" width="32"
                                     height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
@@ -125,7 +125,7 @@ get_header();
                     </div>
                     <div data-slot="card"
                         class="text-card-foreground flex flex-col gap-6 rounded-xl border py-6 shadow-sm flex-1 bg-background mb-6">
-                        <div data-slot="card-content" class="px-6 pt-6">
+                        <div data-slot="card-content" class="px-6 py-6">
                             <h3 class="text-xl font-bold mb-2">Mês 1: Onboarding</h3>
                             <ul class="space-y-2 text-sm text-muted-foreground">
                                 <li>• Boas-vindas e acesso à plataforma</li>
@@ -144,7 +144,7 @@ get_header();
                     </div>
                     <div data-slot="card"
                         class="text-card-foreground flex flex-col gap-6 rounded-xl border py-6 shadow-sm flex-1 bg-background mb-6">
-                        <div data-slot="card-content" class="px-6 pt-6">
+                        <div data-slot="card-content" class="px-6 py-6">
                             <h3 class="text-xl font-bold mb-2">Mês 2-3: Fundação</h3>
                             <ul class="space-y-2 text-sm text-muted-foreground">
                                 <li>• V de Valor e V de Vitrine</li>
@@ -163,7 +163,7 @@ get_header();
                     </div>
                     <div data-slot="card"
                         class="text-card-foreground flex flex-col gap-6 rounded-xl border py-6 shadow-sm flex-1 bg-background mb-6">
-                        <div data-slot="card-content" class="px-6 pt-6">
+                        <div data-slot="card-content" class="px-6 py-6">
                             <h3 class="text-xl font-bold mb-2">Mês 4-6: Crescimento</h3>
                             <ul class="space-y-2 text-sm text-muted-foreground">
                                 <li>• V de Venda, V de Volume, V de Vínculo</li>
@@ -182,7 +182,7 @@ get_header();
                     </div>
                     <div data-slot="card"
                         class="text-card-foreground flex flex-col gap-6 rounded-xl border py-6 shadow-sm flex-1 bg-background mb-6">
-                        <div data-slot="card-content" class="px-6 pt-6">
+                        <div data-slot="card-content" class="px-6 py-6">
                             <h3 class="text-xl font-bold mb-2">Mês 7-9: Liderança</h3>
                             <ul class="space-y-2 text-sm text-muted-foreground">
                                 <li>• V de Visão</li>
@@ -200,7 +200,7 @@ get_header();
                     </div>
                     <div data-slot="card"
                         class="text-card-foreground flex flex-col gap-6 rounded-xl border py-6 shadow-sm flex-1 bg-background">
-                        <div data-slot="card-content" class="px-6 pt-6">
+                        <div data-slot="card-content" class="px-6 py-6">
                             <h3 class="text-xl font-bold mb-2">Mês 10-12: Consolidação</h3>
                             <ul class="space-y-2 text-sm text-muted-foreground">
                                 <li>• Integração dos 7 Vs</li>
@@ -219,7 +219,7 @@ get_header();
             <p class="text-lg mb-8 max-w-2xl mx-auto text-muted-foreground">Seja um dos 100 fundadores e tenha acesso
                 completo ao ecossistema VdeVAREJO com 20% de desconto permanente.</p><a
                 href="<?php echo home_url( '/fundador' ); ?>"><button data-slot="button"
-                    class="inline-flex items-center justify-center gap-2 whitespace-nowrap transition-all disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg:not([class*='size-'])]:size-4 shrink-0 [&amp;_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive bg-primary text-primary-foreground hover:bg-primary/90 h-10 rounded-md has-[&gt;svg]:px-4 text-lg px-8 py-6 font-bold">QUERO
+                    class="cursor-pointer text-white btn btn-primary inline-block text-xl px-12 py-4 rounded-md bg-laranja">QUERO
                     SER UM FUNDADOR (20% OFF)</button></a>
         </div>
     </section>

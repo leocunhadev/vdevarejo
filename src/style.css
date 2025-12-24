@@ -1,22 +1,22 @@
 /* ========================================
    VDEVAREJO - BOLD MINIMALISM DESIGN
-   Paleta: Preto (#000), Cinza Chumbo (#2B2B2B), Laranja (#FF5100)
+   Paleta: color-laranja (#000), Cinza Chumbo (#2B2B2B), color-laranja (#FF5100)
    ======================================== */
 
 
-:root {
-  --preto: #000000;
+/* :root {
+  --color-laranja: #0f0f0f;
   --cinza-chumbo: #2B2B2B;
   --cinza-medio: #6E6E6E;
   --cinza-claro: #D9D9D9;
-  --laranja: #FF3500;
-  --laranja-hover: #E64800;
+  --color-laranja: #FF3500;
+  --color-laranja-hover: #E64800;
   --branco: #FFFFFF;
-}
+} */
 
 body {
   font-family: 'Inter', sans-serif;
-  color: var(--preto);
+  color: var(--color-preto);
   line-height: 1.6;
   overflow-x: hidden;
 }
@@ -34,6 +34,7 @@ h6 {
 }
 
 .text-hero {
+  color: var(--color-branco);
   font-size: clamp(2.5rem, 8vw, 5rem);
   line-height: 1.1;
   font-weight: 900;
@@ -41,11 +42,11 @@ h6 {
 }
 
 .text-gradient {
-  background: linear-gradient(135deg, var(--laranja) 0%, #FF7733 100%);
+  background: linear-gradient(135deg, var(--color-laranja) 0%, #FF7733 100%);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
-  display: inline-block;
+  /* display: inline-block; */
 }
 
 .container {
@@ -68,7 +69,7 @@ h6 {
 }
 
 header {
-  background: var(--branco);
+  /* background: var(--color-preto); */
   border-bottom: 1px solid var(--cinza-claro);
   position: sticky;
   top: 0;
@@ -94,7 +95,7 @@ header nav {
 }
 
 header nav a:hover {
-  color: var(--laranja);
+  color: var(--color-laranja);
 }
 
 @media (min-width: 768px) {
@@ -112,8 +113,8 @@ header nav a:hover {
 }
 
 .hero-gradient {
-  background: linear-gradient(135deg, var(--preto) 0%, var(--cinza-chumbo) 100%);
-  color: var(--branco);
+  background: linear-gradient(135deg, var(--color-preto) 0%, var(--color-cinza-chumbo) 100%);
+  color: var(--color-preto);
   position: relative;
   overflow: hidden;
   padding: 5rem 0;
@@ -126,7 +127,7 @@ header nav a:hover {
   right: 0;
   width: 40%;
   height: 100%;
-  background: linear-gradient(90deg, transparent 0%, rgba(255, 81, 0, 0.1) 100%);
+  background: linear-gradient(90deg, transparent 0%, #FF51001A 100%);
   transform: skewX(-15deg);
   transform-origin: top right;
 }
@@ -152,27 +153,27 @@ header nav a:hover {
 
 .btn-primary {
   position: relative;
-  box-shadow: 0 4px 0 var(--laranja-hover), 0 8px 16px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 0 var(--color-laranja-hover), 0 8px 16px #00000033;
 }
 
 .btn-primary:hover {
   transform: translateY(2px);
-  box-shadow: 0 2px 0 var(--laranja-hover), 0 4px 8px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 2px 0 var(--color-laranja-hover), 0 4px 8px #00000033;
 }
 
 .card {
-  background: var(--branco);
+  background: var(--color-branco);
   border: 1px solid var(--cinza-claro);
   border-radius: 1rem;
   padding: 2rem;
   transition: all 0.3s;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 4px 12px #0000000D;
 }
 
 .card:hover {
   transform: translateY(-4px);
-  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1);
-  border-color: var(--laranja);
+  box-shadow: 0 12px 24px #0000001A;
+  border-color: var(--color-laranja);
 }
 
 section {
@@ -186,8 +187,8 @@ section {
 }
 
 footer {
-  background: var(--preto);
-  color: var(--branco);
+  background: var(--color-preto);
+  color: var(--color-branco);
   padding: 3rem 0 1.5rem;
 }
 
@@ -198,7 +199,7 @@ footer .logo img {
 }
 
 footer h4 {
-  color: var(--laranja);
+  color: var(--color-laranja);
   margin-bottom: 1rem;
   font-size: 1.125rem;
 }
@@ -212,7 +213,7 @@ footer a {
 }
 
 footer a:hover {
-  color: var(--laranja);
+  color: var(--color-laranja);
 }
 
 footer .copyright {
@@ -227,6 +228,5 @@ footer .copyright {
   .text-hero {
     font-size: 2.5rem;
   }
-
 
 }

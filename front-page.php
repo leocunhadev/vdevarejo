@@ -18,16 +18,16 @@ get_header();
         </p>
 
         <div class="flex flex-col sm:flex-row gap-6 justify-center">
-          <a href="fundador.html">
+          <a href="<?php echo home_url( 'fundador' ); ?>">
             <button data-slot="button"
-              class="cursor-pointer btn btn-primary inline-block text-xl px-12 py-4 rounded-md bg-laranja">
+              class="cursor-pointer text-white btn btn-primary inline-block text-xl px-12 py-4 rounded-md bg-laranja">
               QUERO ESSA TRANSFORMAÇÃO
             </button>
           </a>
 
-          <a href="metodologia.html">
+          <a href="<?php echo home_url( 'metodologia' ); ?>">
             <button data-slot="button"
-              class="inline-flex items-center justify-center gap-2 whitespace-nowrap transition-all disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg:not([class*='size-'])]:size-4 shrink-0 [&_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive shadow-xs dark:bg-transparent dark:border-input dark:hover:bg-input/50 h-10 rounded-md has-[>svg]:px-4 text-lg px-10 py-7 font-bold bg-transparent border-2 border-white text-white hover:bg-white hover:text-laranja cursor-pointer">Conheça
+              class="inline-flex items-center justify-center gap-2 whitespace-nowrap transition-all disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg:not([class*='size-'])]:size-4 shrink-0 [&_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 aria-invalid:border-destructive shadow-xs hover:bg-branco h-10 rounded-md has-[>svg]:px-4 text-lg px-10 py-7 font-bold bg-transparent border-2 border-white text-white hover:text-laranja cursor-pointer">Conheça
               a Metodologia</button>
           </a>
         </div>
@@ -38,7 +38,7 @@ get_header();
   <!-- Seção Problema -->
   <section class="py-16 md:py-24 bg-white">
     <div class="container mx-auto px-4">
-      <h2 class="text-center mb-12 text-3xl md:text-4xl font-poppins font-extrabold text-black">
+      <h2 class="text-center mb-12 text-3xl md:text-4xl font-poppins font-extrabold text-preto">
         Reconhece alguma dessas situações?
       </h2>
 
@@ -85,7 +85,7 @@ get_header();
     </div>
   </section>
 
-  <section class="bg-dark py-16 md:py-24 text-white bg-black">
+  <section class="bg-dark py-16 md:py-24 text-white bg-preto">
     <div class="container mx-auto px-4">
       <div class="text-center">
         <h2 class="text-3xl md:text-[2.5rem] leading-tight font-poppins font-extrabold mb-6">
@@ -104,7 +104,7 @@ get_header();
   <!-- Seção Fundadores -->
   <section class="py-16 md:py-24 bg-white">
     <div class="container mx-auto px-4">
-      <h2 class="text-center mb-12 text-3xl md:text-[2.5rem] font-poppins font-extrabold text-black leading-tight">
+      <h2 class="text-center mb-12 text-3xl md:text-[2.5rem] font-poppins font-extrabold text-preto leading-tight">
         A dupla perfeita para transformar o seu varejo.
       </h2>
 
@@ -112,7 +112,7 @@ get_header();
 
         <div class="card text-center flex flex-col items-center">
           <div class="w-30 h-30 mb-6 bg-cinza-claro rounded-full flex items-center justify-center">
-            <span class="text-5xl font-black text-laranja">AF</span>
+            <span class="text-5xl font-preto text-laranja">AF</span>
           </div>
 
           <div class="inline-block bg-laranja text-white px-4 py-2 rounded-full text-sm font-bold mb-4 shadow-sm">
@@ -129,7 +129,7 @@ get_header();
 
         <div class="card text-center flex flex-col items-center">
           <div class="w-[120px] h-[120px] mb-6 bg-cinza-claro rounded-full flex items-center justify-center">
-            <span class="text-5xl font-black text-laranja">DO</span>
+            <span class="text-5xl font-preto text-laranja">DO</span>
           </div>
 
           <div class="inline-block bg-laranja text-white px-4 py-2 rounded-full text-sm font-bold mb-4 shadow-sm">
@@ -148,7 +148,7 @@ get_header();
     </div>
   </section>
 
-  <section class="bg-black py-20 md:py-28 text-white">
+  <section class="bg-preto py-20 md:py-28 text-white">
     <div class="container mx-auto px-4 text-center">
       <h2 class="text-3xl md:text-[2.5rem] font-poppins font-extrabold mb-6 leading-tight">
         Seja um dos 100 primeiros do VdeVAREJO.
@@ -159,7 +159,7 @@ get_header();
         entrar agora.
       </p>
 
-      <a href="fundador.html" class="cursor-pointer btn btn-primary inline-block text-xl px-12 py-4 rounded-md bg-laranja">
+      <a href="<?php echo home_url( 'fundador' ); ?>" class="cursor-pointer btn btn-primary inline-block text-xl px-12 py-4 rounded-md bg-laranja">
         QUERO ESSA TRANSFORMAÇÃO
       </a>
 

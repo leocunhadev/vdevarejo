@@ -14,7 +14,7 @@
     <div class="container">
       <div class="logo">
         <a href="<?php echo home_url( '/' ); ?>">
-          <img src="<?php echo get_template_directory_uri(); ?>/images/logo-header.png" alt="VdeVAREJO">
+          <img src="<?php echo get_template_directory_uri(); ?>/images/logo-black.svg" alt="VdeVAREJO">
         </a>
       </div>
       <nav>
@@ -22,7 +22,7 @@
         <a href="<?php echo home_url( '/sobre' ); ?>">Sobre Nós</a>
         <a href="<?php echo home_url( '/metodologia' ); ?>">A Metodologia</a>
         <a href="<?php echo home_url( '/como-funciona' ); ?>">Como Funciona</a>
-        <a href="<?php echo home_url( '/cases' ); ?>">Cases</a>
+        <!-- <a href="<?php // echo home_url( '/cases' ); ?>">Cases</a> -->
         <a href="<?php echo home_url( '/contato' ); ?>">Contato</a>
         <a href="<?php echo home_url( '/fundador' ); ?>" class="btn btn-primary px-6 py-3 text-base text-white hover:text-white! bg-laranja">
           QUERO ESSA TRANSFORMAÇÃO

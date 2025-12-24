@@ -34,7 +34,7 @@ get_header();
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-12">
                     <div data-slot="card"
                         class="bg-card text-card-foreground flex flex-col gap-6 rounded-xl border py-6 shadow-sm">
-                        <div data-slot="card-content" class="px-6 pt-6">
+                        <div data-slot="card-content" class="px-6">
                             <div class="flex items-start gap-3"><svg xmlns="http://www.w3.org/2000/svg" width="24"
                                     height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
                                     stroke-linecap="round" stroke-linejoin="round"
@@ -51,7 +51,7 @@ get_header();
                     </div>
                     <div data-slot="card"
                         class="bg-card text-card-foreground flex flex-col gap-6 rounded-xl border py-6 shadow-sm">
-                        <div data-slot="card-content" class="px-6 pt-6">
+                        <div data-slot="card-content" class="px-6">
                             <div class="flex items-start gap-3"><svg xmlns="http://www.w3.org/2000/svg" width="24"
                                     height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
                                     stroke-linecap="round" stroke-linejoin="round"
@@ -68,7 +68,7 @@ get_header();
                     </div>
                     <div data-slot="card"
                         class="bg-card text-card-foreground flex flex-col gap-6 rounded-xl border py-6 shadow-sm">
-                        <div data-slot="card-content" class="px-6 pt-6">
+                        <div data-slot="card-content" class="px-6">
                             <div class="flex items-start gap-3"><svg xmlns="http://www.w3.org/2000/svg" width="24"
                                     height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
                                     stroke-linecap="round" stroke-linejoin="round"
@@ -85,7 +85,7 @@ get_header();
                     </div>
                     <div data-slot="card"
                         class="bg-card text-card-foreground flex flex-col gap-6 rounded-xl border py-6 shadow-sm">
-                        <div data-slot="card-content" class="px-6 pt-6">
+                        <div data-slot="card-content" class="px-6">
                             <div class="flex items-start gap-3"><svg xmlns="http://www.w3.org/2000/svg" width="24"
                                     height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
                                     stroke-linecap="round" stroke-linejoin="round"
@@ -101,7 +101,7 @@ get_header();
                     </div>
                     <div data-slot="card"
                         class="bg-card text-card-foreground flex flex-col gap-6 rounded-xl border py-6 shadow-sm">
-                        <div data-slot="card-content" class="px-6 pt-6">
+                        <div data-slot="card-content" class="px-6">
                             <div class="flex items-start gap-3"><svg xmlns="http://www.w3.org/2000/svg" width="24"
                                     height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
                                     stroke-linecap="round" stroke-linejoin="round"
@@ -118,7 +118,7 @@ get_header();
                     </div>
                     <div data-slot="card"
                         class="bg-card text-card-foreground flex flex-col gap-6 rounded-xl border py-6 shadow-sm">
-                        <div data-slot="card-content" class="px-6 pt-6">
+                        <div data-slot="card-content" class="px-6">
                             <div class="flex items-start gap-3"><svg xmlns="http://www.w3.org/2000/svg" width="24"
                                     height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
                                     stroke-linecap="round" stroke-linejoin="round"
@@ -136,7 +136,7 @@ get_header();
                 </div>
                 <div data-slot="card"
                     class="bg-card text-card-foreground flex flex-col gap-6 rounded-xl py-6 shadow-sm border-4 border-primary">
-                    <div data-slot="card-content" class="px-6 pt-6">
+                    <div data-slot="card-content" class="px-6">
                         <h3 class="text-2xl font-bold mb-4 text-center text-primary">Benefícios Exclusivos dos 500
                             Primeiros</h3>
                         <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
@@ -217,7 +217,7 @@ get_header();
             <div class="max-w-3xl mx-auto">
                 <div data-slot="card"
                     class="text-card-foreground flex flex-col gap-6 rounded-xl py-6 shadow-sm border-2 border-primary bg-background">
-                    <div data-slot="card-content" class="px-6 pt-8">
+                    <div data-slot="card-content" class="px-6">
                         <div class="text-center mb-6"><svg xmlns="http://www.w3.org/2000/svg" width="64" height="64"
                                 viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
                                 stroke-linecap="round" stroke-linejoin="round"
@@ -243,7 +243,7 @@ get_header();
             <div class="max-w-3xl mx-auto space-y-6">
                 <div data-slot="card"
                     class="bg-card text-card-foreground flex flex-col gap-6 rounded-xl border py-6 shadow-sm">
-                    <div data-slot="card-content" class="px-6 pt-6">
+                    <div data-slot="card-content" class="px-6">
                         <div class="flex items-start gap-3"><svg xmlns="http://www.w3.org/2000/svg" width="24"
                                 height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
                                 stroke-linecap="round" stroke-linejoin="round"
@@ -263,7 +263,7 @@ get_header();
                 </div>
                 <div data-slot="card"
                     class="bg-card text-card-foreground flex flex-col gap-6 rounded-xl border py-6 shadow-sm">
-                    <div data-slot="card-content" class="px-6 pt-6">
+                    <div data-slot="card-content" class="px-6">
                         <div class="flex items-start gap-3"><svg xmlns="http://www.w3.org/2000/svg" width="24"
                                 height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
                                 stroke-linecap="round" stroke-linejoin="round"
@@ -283,7 +283,7 @@ get_header();
                 </div>
                 <div data-slot="card"
                     class="bg-card text-card-foreground flex flex-col gap-6 rounded-xl border py-6 shadow-sm">
-                    <div data-slot="card-content" class="px-6 pt-6">
+                    <div data-slot="card-content" class="px-6">
                         <div class="flex items-start gap-3"><svg xmlns="http://www.w3.org/2000/svg" width="24"
                                 height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
                                 stroke-linecap="round" stroke-linejoin="round"
@@ -303,7 +303,7 @@ get_header();
                 </div>
                 <div data-slot="card"
                     class="bg-card text-card-foreground flex flex-col gap-6 rounded-xl border py-6 shadow-sm">
-                    <div data-slot="card-content" class="px-6 pt-6">
+                    <div data-slot="card-content" class="px-6">
                         <div class="flex items-start gap-3"><svg xmlns="http://www.w3.org/2000/svg" width="24"
                                 height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
                                 stroke-linecap="round" stroke-linejoin="round"
@@ -323,7 +323,7 @@ get_header();
                 </div>
                 <div data-slot="card"
                     class="bg-card text-card-foreground flex flex-col gap-6 rounded-xl border py-6 shadow-sm">
-                    <div data-slot="card-content" class="px-6 pt-6">
+                    <div data-slot="card-content" class="px-6">
                         <div class="flex items-start gap-3"><svg xmlns="http://www.w3.org/2000/svg" width="24"
                                 height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
                                 stroke-linecap="round" stroke-linejoin="round"
@@ -349,7 +349,7 @@ get_header();
             <h2 class="text-3xl md:text-5xl font-bold mb-6">O futuro do seu varejo começa agora.</h2>
             <p class="text-lg md:text-xl mb-8 max-w-3xl mx-auto">Não deixe seu negócio morrer na próxima geração.
                 Junte-se aos 500 primeiros e construa um legado de sucesso.</p><button data-slot="button"
-                class="inline-flex items-center justify-center gap-2 whitespace-nowrap transition-all disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg:not([class*='size-'])]:size-4 shrink-0 [&amp;_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive bg-primary text-primary-foreground hover:bg-primary/90 h-10 rounded-md has-[&gt;svg]:px-4 text-xl px-12 py-8 font-bold mb-6">QUERO
+                class="cursor-pointer text-white btn btn-primary inline-block text-xl px-12 py-4 rounded-md bg-laranja">QUERO
                 ESSA TRANSFORMAÇÃO</button>
             <div class="space-y-2 text-sm">
                 <div class="flex items-center justify-center gap-2"><svg xmlns="http://www.w3.org/2000/svg" width="20"

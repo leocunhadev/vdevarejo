@@ -10,11 +10,12 @@ module.exports = {
             // 2. Adiciona as suas cores personalizadas
             colors: {
                 // O Tailwind agora buscará o valor de --laranja definido no seu CSS
-                'laranja': 'var(--laranja)',
-                'laranja-hover': 'var(--laranja-hover)',
-                'cinza-chumbo': 'var(--cinza-chumbo)',
-                'cinza-medio': 'var(--cinza-medio)',
-                'cinza-claro': 'var(--cinza-claro)',
+                // 'laranja': 'var(--laranja)',
+                // 'laranja-hover': 'var(--laranja-hover)',
+                // 'cinza-chumbo': 'var(--cinza-chumbo)',
+                // 'cinza-medio': 'var(--cinza-medio)',
+                // 'cinza-claro': 'var(--cinza-claro)',
+                // 'preto': '#0f0f0f',
             },
             // 3. Adiciona as suas fontes personalizadas
             fontFamily: {

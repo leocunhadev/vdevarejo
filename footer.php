@@ -12,7 +12,7 @@
             <a href="<?php echo home_url( '/sobre' ); ?>" class="text-cinza-claro hover:text-laranja transition-colors">Sobre Nós</a>
             <a href="<?php echo home_url( '/metodologia' ); ?>" class="text-cinza-claro hover:text-laranja transition-colors">A Metodologia</a>
             <a href="<?php echo home_url( '/como-funciona' ); ?>" class="text-cinza-claro hover:text-laranja transition-colors">Como Funciona</a>
-            <a href="<?php echo home_url( '/cases' ); ?>" class="text-cinza-claro hover:text-laranja transition-colors">Cases</a>
+            <!-- <a href="<?php // echo home_url( '/cases' ); ?>" class="text-cinza-claro hover:text-laranja transition-colors">Cases</a> -->
             <a href="<?php echo home_url( '/contato' ); ?>" class="text-cinza-claro hover:text-laranja transition-colors">Contato</a>
           </nav>
         </div>
@@ -28,7 +28,7 @@
         <div class="flex flex-col">
           <h4 class="text-laranja font-poppins font-bold text-lg mb-4">Redes Sociais</h4>
           <nav class="flex flex-col gap-2">
-            <a href="#" class="text-cinza-claro hover:text-laranja transition-colors">Instagram</a>
+            <a href="https://instagram.com/vde.varejo" class="text-cinza-claro hover:text-laranja transition-colors">Instagram</a>
             <a href="#" class="text-cinza-claro hover:text-laranja transition-colors">LinkedIn</a>
           </nav>
         </div>

@@ -104,7 +104,7 @@ get_header();
             <p class="text-lg mb-8 max-w-2xl mx-auto text-muted-foreground">Junte-se aos 500 fundadores e construa um
                 legado de sucesso ao lado de quem realmente entende o varejo brasileiro.</p><a
                 href="<?php echo home_url( '/fundador' ); ?>"><button data-slot="button"
-                    class="inline-flex items-center justify-center gap-2 whitespace-nowrap transition-all disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg:not([class*='size-'])]:size-4 shrink-0 [&amp;_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive bg-primary text-primary-foreground hover:bg-primary/90 h-10 rounded-md has-[&gt;svg]:px-4 text-lg px-8 py-6 font-bold">QUERO
+                    class="cursor-pointer text-white btn btn-primary inline-block text-xl px-12 py-4 rounded-md bg-laranja">QUERO
                     ESSA TRANSFORMAÇÃO</button></a>
         </div>
     </section>
