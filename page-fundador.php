@@ -8,14 +8,14 @@ get_header();
         class="py-16 md:py-24 bg-gradient-to-br from-secondary via-secondary/95 to-secondary/90 text-secondary-foreground">
         <div class="container">
             <div class="max-w-4xl mx-auto text-center">
-                <div
-                    class="inline-block bg-primary text-primary-foreground px-6 py-3 rounded-full font-bold text-lg mb-6 animate-pulse">
+                <div class="inline-block bg-primary text-primary-foreground px-6 py-3 rounded-full font-bold text-lg mb-6 animate-pulse">
                     OFERTA LIMITADA: 500 VAGAS</div>
                 <h1 class="text-4xl md:text-6xl font-bold mb-6">Seja um dos 500 Primeiros do VdeVAREJO.</h1>
                 <p class="text-lg md:text-xl mb-8">Oferta exclusiva e limitada. <strong class="text-primary">20% de
                         desconto vitalício em todos os nossos programas</strong> + benefícios VIP. Transforme seu varejo
                     e construa um legado de sucesso.</p>
-                <div class="flex items-center justify-center gap-2 text-lg"><svg xmlns="http://www.w3.org/2000/svg"
+                <div class="flex items-center justify-center gap-2 text-lg">
+                    <svg xmlns="http://www.w3.org/2000/svg"
                         width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
                         stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-clock text-primary">
                         <circle cx="12" cy="12" r="10"></circle>
@@ -28,14 +28,14 @@ get_header();
     </section>
     <section class="py-16 md:py-24 bg-background">
         <div class="container">
-            <h2 class="text-3xl md:text-4xl font-bold text-center mb-12">O que você recebe ao se tornar um dos 500
-                Primeiros</h2>
+            <h2 class="text-3xl md:text-4xl font-bold text-center mb-12">O que você recebe ao se tornar um dos 500 Primeiros</h2>
             <div class="max-w-4xl mx-auto">
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-12">
                     <div data-slot="card"
-                        class="bg-card text-card-foreground flex flex-col gap-6 rounded-xl border py-6 shadow-sm">
+                        class="bg-card text-card-foreground flex justify-center flex-col gap-6 rounded-xl border py-6 shadow-sm">
                         <div data-slot="card-content" class="px-6">
-                            <div class="flex items-start gap-3"><svg xmlns="http://www.w3.org/2000/svg" width="24"
+                            <div class="flex items-start gap-3">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24"
                                     height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
                                     stroke-linecap="round" stroke-linejoin="round"
                                     class="lucide lucide-check text-primary flex-shrink-0 mt-1">
@@ -43,16 +43,16 @@ get_header();
                                 </svg>
                                 <div>
                                     <h3 class="font-bold mb-1">Acesso Vitalício à Plataforma</h3>
-                                    <p class="text-sm text-muted-foreground">Todos os módulos dos 7 Vs do Varejo
-                                        disponíveis 24/7</p>
+                                    <p class="text-sm text-muted-foreground">Todos os módulos dos 7 Vs do Varejo disponíveis 24/7</p>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div data-slot="card"
-                        class="bg-card text-card-foreground flex flex-col gap-6 rounded-xl border py-6 shadow-sm">
+                        class="bg-card text-card-foreground flex justify-center flex-col gap-6 rounded-xl border py-6 shadow-sm">
                         <div data-slot="card-content" class="px-6">
-                            <div class="flex items-start gap-3"><svg xmlns="http://www.w3.org/2000/svg" width="24"
+                            <div class="flex items-start gap-3">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24"
                                     height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
                                     stroke-linecap="round" stroke-linejoin="round"
                                     class="lucide lucide-check text-primary flex-shrink-0 mt-1">
@@ -60,16 +60,16 @@ get_header();
                                 </svg>
                                 <div>
                                     <h3 class="font-bold mb-1">Ferramentas Prontas para Usar</h3>
-                                    <p class="text-sm text-muted-foreground">Templates, planilhas e checklists
-                                        aplicáveis no dia seguinte</p>
+                                    <p class="text-sm text-muted-foreground">Templates, planilhas e checklists aplicáveis no dia seguinte</p>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div data-slot="card"
-                        class="bg-card text-card-foreground flex flex-col gap-6 rounded-xl border py-6 shadow-sm">
+                        class="bg-card text-card-foreground flex justify-center flex-col gap-6 rounded-xl border py-6 shadow-sm">
                         <div data-slot="card-content" class="px-6">
-                            <div class="flex items-start gap-3"><svg xmlns="http://www.w3.org/2000/svg" width="24"
+                            <div class="flex items-start gap-3">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24"
                                     height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
                                     stroke-linecap="round" stroke-linejoin="round"
                                     class="lucide lucide-check text-primary flex-shrink-0 mt-1">
@@ -77,16 +77,16 @@ get_header();
                                 </svg>
                                 <div>
                                     <h3 class="font-bold mb-1">Comunidade Exclusiva</h3>
-                                    <p class="text-sm text-muted-foreground">Networking com centenas de outros
-                                        varejistas de sucesso</p>
+                                    <p class="text-sm text-muted-foreground">Networking com centenas de outros varejistas de sucesso</p>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div data-slot="card"
-                        class="bg-card text-card-foreground flex flex-col gap-6 rounded-xl border py-6 shadow-sm">
+                        class="bg-card text-card-foreground flex justify-center flex-col gap-6 rounded-xl border py-6 shadow-sm">
                         <div data-slot="card-content" class="px-6">
-                            <div class="flex items-start gap-3"><svg xmlns="http://www.w3.org/2000/svg" width="24"
+                            <div class="flex items-start gap-3">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24"
                                     height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
                                     stroke-linecap="round" stroke-linejoin="round"
                                     class="lucide lucide-check text-primary flex-shrink-0 mt-1">
@@ -100,9 +100,10 @@ get_header();
                         </div>
                     </div>
                     <div data-slot="card"
-                        class="bg-card text-card-foreground flex flex-col gap-6 rounded-xl border py-6 shadow-sm">
+                        class="bg-card text-card-foreground flex justify-center flex-col gap-6 rounded-xl border py-6 shadow-sm">
                         <div data-slot="card-content" class="px-6">
-                            <div class="flex items-start gap-3"><svg xmlns="http://www.w3.org/2000/svg" width="24"
+                            <div class="flex items-start gap-3">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24"
                                     height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
                                     stroke-linecap="round" stroke-linejoin="round"
                                     class="lucide lucide-check text-primary flex-shrink-0 mt-1">
@@ -110,14 +111,13 @@ get_header();
                                 </svg>
                                 <div>
                                     <h3 class="font-bold mb-1">Mentorias em Grupo</h3>
-                                    <p class="text-sm text-muted-foreground">Sessões de hotseat para resolver seus
-                                        desafios específicos</p>
+                                    <p class="text-sm text-muted-foreground">Sessões de hotseat para resolver seus desafios específicos</p>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div data-slot="card"
-                        class="bg-card text-card-foreground flex flex-col gap-6 rounded-xl border py-6 shadow-sm">
+                        class="bg-card text-card-foreground flex justify-center flex-col gap-6 rounded-xl border py-6 shadow-sm">
                         <div data-slot="card-content" class="px-6">
                             <div class="flex items-start gap-3"><svg xmlns="http://www.w3.org/2000/svg" width="24"
                                     height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
@@ -127,20 +127,19 @@ get_header();
                                 </svg>
                                 <div>
                                     <h3 class="font-bold mb-1">Atualizações Contínuas</h3>
-                                    <p class="text-sm text-muted-foreground">Novos conteúdos e ferramentas sem custo
-                                        adicional</p>
+                                    <p class="text-sm text-muted-foreground">Novos conteúdos e ferramentas sem custo adicional</p>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div data-slot="card"
-                    class="bg-card text-card-foreground flex flex-col gap-6 rounded-xl py-6 shadow-sm border-4 border-primary">
+                    class="bg-card text-card-foreground flex justify-center flex-col gap-6 rounded-xl py-6 shadow-sm border-4 border-primary">
                     <div data-slot="card-content" class="px-6">
-                        <h3 class="text-2xl font-bold mb-4 text-center text-primary">Benefícios Exclusivos dos 500
-                            Primeiros</h3>
+                        <h3 class="text-2xl font-bold mb-4 text-center text-primary">Benefícios Exclusivos dos 500 Primeiros</h3>
                         <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-                            <div class="flex items-start gap-3"><svg xmlns="http://www.w3.org/2000/svg" width="24"
+                            <div class="flex items-start gap-3">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24"
                                     height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
                                     stroke-linecap="round" stroke-linejoin="round"
                                     class="lucide lucide-check text-primary flex-shrink-0 mt-1">
@@ -151,7 +150,8 @@ get_header();
                                     <p class="text-sm text-muted-foreground">Em todos os programas VdeVAREJO</p>
                                 </div>
                             </div>
-                            <div class="flex items-start gap-3"><svg xmlns="http://www.w3.org/2000/svg" width="24"
+                            <div class="flex items-start gap-3">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24"
                                     height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
                                     stroke-linecap="round" stroke-linejoin="round"
                                     class="lucide lucide-check text-primary flex-shrink-0 mt-1">
@@ -162,7 +162,8 @@ get_header();
                                     <p class="text-sm text-muted-foreground">Reconhecimento na comunidade</p>
                                 </div>
                             </div>
-                            <div class="flex items-start gap-3"><svg xmlns="http://www.w3.org/2000/svg" width="24"
+                            <div class="flex items-start gap-3">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24"
                                     height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
                                     stroke-linecap="round" stroke-linejoin="round"
                                     class="lucide lucide-check text-primary flex-shrink-0 mt-1">
@@ -173,7 +174,8 @@ get_header();
                                     <p class="text-sm text-muted-foreground">Novos conteúdos antes de todos</p>
                                 </div>
                             </div>
-                            <div class="flex items-start gap-3"><svg xmlns="http://www.w3.org/2000/svg" width="24"
+                            <div class="flex items-start gap-3">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24"
                                     height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
                                     stroke-linecap="round" stroke-linejoin="round"
                                     class="lucide lucide-check text-primary flex-shrink-0 mt-1">
@@ -184,7 +186,8 @@ get_header();
                                     <p class="text-sm text-muted-foreground">Vagas garantidas</p>
                                 </div>
                             </div>
-                            <div class="flex items-start gap-3"><svg xmlns="http://www.w3.org/2000/svg" width="24"
+                            <div class="flex items-start gap-3">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24"
                                     height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
                                     stroke-linecap="round" stroke-linejoin="round"
                                     class="lucide lucide-check text-primary flex-shrink-0 mt-1">
@@ -195,7 +198,8 @@ get_header();
                                     <p class="text-sm text-muted-foreground">Acompanhamento personalizado</p>
                                 </div>
                             </div>
-                            <div class="flex items-start gap-3"><svg xmlns="http://www.w3.org/2000/svg" width="24"
+                            <div class="flex items-start gap-3">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24"
                                     height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
                                     stroke-linecap="round" stroke-linejoin="round"
                                     class="lucide lucide-check text-primary flex-shrink-0 mt-1">
@@ -218,7 +222,8 @@ get_header();
                 <div data-slot="card"
                     class="text-card-foreground flex flex-col gap-6 rounded-xl py-6 shadow-sm border-2 border-primary bg-background">
                     <div data-slot="card-content" class="px-6">
-                        <div class="text-center mb-6"><svg xmlns="http://www.w3.org/2000/svg" width="64" height="64"
+                        <div class="text-center mb-6">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64"
                                 viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
                                 stroke-linecap="round" stroke-linejoin="round"
                                 class="lucide lucide-shield text-primary mx-auto mb-4">
@@ -241,10 +246,10 @@ get_header();
         <div class="container">
             <h2 class="text-3xl md:text-4xl font-bold text-center mb-12">Perguntas Frequentes</h2>
             <div class="max-w-3xl mx-auto space-y-6">
-                <div data-slot="card"
-                    class="bg-card text-card-foreground flex flex-col gap-6 rounded-xl border py-6 shadow-sm">
+                <div data-slot="card" class="bg-card text-card-foreground flex flex-col gap-6 rounded-xl border py-6 shadow-sm">
                     <div data-slot="card-content" class="px-6">
-                        <div class="flex items-start gap-3"><svg xmlns="http://www.w3.org/2000/svg" width="24"
+                        <div class="flex items-start gap-3">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24"
                                 height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
                                 stroke-linecap="round" stroke-linejoin="round"
                                 class="lucide lucide-circle-alert text-primary flex-shrink-0 mt-1">
@@ -261,10 +266,10 @@ get_header();
                         </div>
                     </div>
                 </div>
-                <div data-slot="card"
-                    class="bg-card text-card-foreground flex flex-col gap-6 rounded-xl border py-6 shadow-sm">
+                <div data-slot="card" class="bg-card text-card-foreground flex flex-col gap-6 rounded-xl border py-6 shadow-sm">
                     <div data-slot="card-content" class="px-6">
-                        <div class="flex items-start gap-3"><svg xmlns="http://www.w3.org/2000/svg" width="24"
+                        <div class="flex items-start gap-3">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24"
                                 height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
                                 stroke-linecap="round" stroke-linejoin="round"
                                 class="lucide lucide-circle-alert text-primary flex-shrink-0 mt-1">
@@ -281,10 +286,10 @@ get_header();
                         </div>
                     </div>
                 </div>
-                <div data-slot="card"
-                    class="bg-card text-card-foreground flex flex-col gap-6 rounded-xl border py-6 shadow-sm">
+                <div data-slot="card" class="bg-card text-card-foreground flex flex-col gap-6 rounded-xl border py-6 shadow-sm">
                     <div data-slot="card-content" class="px-6">
-                        <div class="flex items-start gap-3"><svg xmlns="http://www.w3.org/2000/svg" width="24"
+                        <div class="flex items-start gap-3">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24"
                                 height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
                                 stroke-linecap="round" stroke-linejoin="round"
                                 class="lucide lucide-circle-alert text-primary flex-shrink-0 mt-1">
@@ -301,10 +306,10 @@ get_header();
                         </div>
                     </div>
                 </div>
-                <div data-slot="card"
-                    class="bg-card text-card-foreground flex flex-col gap-6 rounded-xl border py-6 shadow-sm">
+                <div data-slot="card" class="bg-card text-card-foreground flex flex-col gap-6 rounded-xl border py-6 shadow-sm">
                     <div data-slot="card-content" class="px-6">
-                        <div class="flex items-start gap-3"><svg xmlns="http://www.w3.org/2000/svg" width="24"
+                        <div class="flex items-start gap-3">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24"
                                 height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
                                 stroke-linecap="round" stroke-linejoin="round"
                                 class="lucide lucide-circle-alert text-primary flex-shrink-0 mt-1">
@@ -321,10 +326,10 @@ get_header();
                         </div>
                     </div>
                 </div>
-                <div data-slot="card"
-                    class="bg-card text-card-foreground flex flex-col gap-6 rounded-xl border py-6 shadow-sm">
+                <div data-slot="card" class="bg-card text-card-foreground flex flex-col gap-6 rounded-xl border py-6 shadow-sm">
                     <div data-slot="card-content" class="px-6">
-                        <div class="flex items-start gap-3"><svg xmlns="http://www.w3.org/2000/svg" width="24"
+                        <div class="flex items-start gap-3">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24"
                                 height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
                                 stroke-linecap="round" stroke-linejoin="round"
                                 class="lucide lucide-circle-alert text-primary flex-shrink-0 mt-1">
@@ -343,16 +348,16 @@ get_header();
             </div>
         </div>
     </section>
-    <section
-        class="py-16 md:py-24 bg-gradient-to-br from-secondary via-secondary/95 to-secondary/90 text-secondary-foreground">
+    <section class="py-16 md:py-24 bg-gradient-to-br from-secondary via-secondary/95 to-secondary/90 text-secondary-foreground">
         <div class="container text-center">
             <h2 class="text-3xl md:text-5xl font-bold mb-6">O futuro do seu varejo começa agora.</h2>
             <p class="text-lg md:text-xl mb-8 max-w-3xl mx-auto">Não deixe seu negócio morrer na próxima geração.
-                Junte-se aos 500 primeiros e construa um legado de sucesso.</p><button data-slot="button"
-                class="cursor-pointer text-white btn btn-primary inline-block text-xl px-12 py-4 rounded-md bg-laranja">QUERO
+                Junte-se aos 500 primeiros e construa um legado de sucesso.</p>
+                <button data-slot="button" class="cursor-pointer text-white btn btn-primary inline-block text-xl px-12 py-4 rounded-md bg-laranja">QUERO
                 ESSA TRANSFORMAÇÃO</button>
-            <div class="space-y-2 text-sm">
-                <div class="flex items-center justify-center gap-2"><svg xmlns="http://www.w3.org/2000/svg" width="20"
+            <div class="space-y-2 text-sm mt-8">
+                <div class="flex items-center justify-center gap-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20"
                         height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
                         stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-clock text-primary">
                         <circle cx="12" cy="12" r="10"></circle>
@@ -360,7 +365,8 @@ get_header();
                     </svg>
                     <p>Oferta válida até 30 de Novembro ou até esgotar as 500 vagas.</p>
                 </div>
-                <div class="flex items-center justify-center gap-2"><svg xmlns="http://www.w3.org/2000/svg" width="20"
+                <div class="flex items-center justify-center gap-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20"
                         height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
                         stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-shield text-primary">
                         <path
